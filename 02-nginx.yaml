@@ -1,12 +1,12 @@
 - name: install and run nginx
-  hosts: web
+  hosts: 172.31.88.54
   become: yes # it will be get root access
   tasks: 
-  - name: install nginx package
-    ansible.builtin.package:
-     name: nginx
-     state: present
-  - name: run nginx
-    ansible.builtin.service:
-     name: nginx
-     state: started
+    - name: install nginx package
+      ansible.builtin.package:
+      name: nginx
+      state: present
+    - name: run nginx
+      ansible.builtin.service:
+      name: nginx
+      state: started
