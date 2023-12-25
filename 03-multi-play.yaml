@@ -1,3 +1,4 @@
+# playbook is a list of plays
 - name: PLAY-1
   hosts: localhost
   tasks: 
