@@ -1,0 +1,18 @@
+- name: Prema
+  DOB: "1999-02-06"
+  address:
+    address-line1: padmanbha street
+    address-line2: SRN colony
+    town: srikalahasti
+  email: premaskht@gmail.com
+
+- name: kishore
+  DOB: "1991-11-18"
+  address:  
+    - address-line1: padmanbha street
+      address-line2: SRN colony
+      town: srikalahasti
+    - address-line1: padmanbha street
+      address-line2: SRN colony
+      town: srikalahasti
+  email: premaskht@gmail.com

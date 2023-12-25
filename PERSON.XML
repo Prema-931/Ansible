@@ -1,0 +1,26 @@
+<Person>
+    <name>Prema</name>
+    <DOB>1999-02-06</DOB>
+    <Address>
+        <address-line1>padmanabha street</address-line1>
+        <address-line2>SRN COLONY</address-line2>
+        <town>Srikalahasti</town>
+    </Address>
+</Person>
+
+<Person>
+    <name>Prema</name>
+    <DOB>1999-02-06</DOB>
+    <Address>
+       <HomeAddress>
+         <address-line1>padmanabha street</address-line1>
+         <address-line2>SRN COLONY</address-line2>
+         <town>Srikalahasti</town>
+       </HomeAddress> 
+       <OfficeAddress>
+         <address-line1>padmanabha street</address-line1>
+         <address-line2>SRN COLONY</address-line2>
+         <town>Srikalahasti</town>
+       </OfficeAddress> 
+    </Address>
+</Person>

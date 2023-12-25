@@ -1,0 +1,31 @@
+[
+    {
+      "name": "Prema",
+      "DOB": "1999-02-06",
+      "address": {
+        "address-line1": "Padmanabha Street",
+        "address-line2": "SRN Colony",
+        "town": "Srikalahasti"
+      }
+    },
+    {
+      "name": "Prema",
+      "DOB": "1999-02-06",
+      "address": [
+        {
+          "address-line1": "Padmanabha Street",
+          "address-line2": "SRN Colony",
+          "town": "Srikalahasti",
+          "type": "home"
+        },
+        {
+          "address-line1": "Padmanabha Street",
+          "address-line2": "SRN Colony",
+          "town": "Srikalahasti",
+          "type": "office"
+        }
+      ]
+    }
+  ]
+       
+
