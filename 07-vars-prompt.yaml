@@ -4,7 +4,7 @@
   - name: NAME
     prompt: please enter your name
     private: false # user can see what they are entering
-  - name: NATIVE PLACE
+  - name: NATIVE_PLACE
     prompt: please enter your native place
     private: false # user can see what they are entering
   - name: QUALIFICATION
@@ -13,7 +13,7 @@
   tasks:
   - name: print and check the values
     ansible.builtin.debug:
-      msg: "name is: {{NAME}}, native place is: {{NATIVE PLACE}}, qualification is: {{QUALIFICATION}}"  
+      msg: "name is: {{NAME}}, native_place is: {{NATIVE_PLACE}}, qualification is: {{QUALIFICATION}}"  
     
 
 
