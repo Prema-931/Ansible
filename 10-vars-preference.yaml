@@ -14,9 +14,9 @@
     TRAVELLING: "SKHT to BNGLR" 
   tasks: 
    - name: check variables
-    #  vars: 
-    #   PERSON: "Prema from BNGLR"             #task
-    #   TRAVELLING: "BNGLR to SKHT" 
+     vars: 
+      PERSON: "Prema from PUNE"             #task
+      TRAVELLING: "HYD to PUNE" 
      ansible.builtin.debug:
       msg: "Hello {{PERSON}}, Good {{TRAVELLING}}"
 
