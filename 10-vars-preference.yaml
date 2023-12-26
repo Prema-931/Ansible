@@ -10,8 +10,8 @@
     prompt: please enter your place
     private: false # user can see what they are entering
   vars:
-    PERSON: "Prema from SKHT"             # play
-    TRAVELLING: "SKHT to BNGLR" 
+     PERSON: "Pandu from SKHT"             # play
+     TRAVELLING: "SKHT to BNGLR" 
   tasks: 
    - name: check variables
      vars: 
