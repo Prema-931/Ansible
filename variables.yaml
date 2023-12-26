@@ -3,5 +3,5 @@ Trainer: "Sivakumar"
 Duration: "110HRS"
 
 
-# PERSON: "Prema from FILE"
-# TRAVEL: "Travelling from FILE" 
+PERSON: "Prema from FILE"
+TRAVELLING: "Travelling from FILE" 
