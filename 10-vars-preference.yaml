@@ -11,14 +11,14 @@
     private: false # user can see what they are entering
   vars:
     PERSON: "Prema from SKHT"             # play
-    TRAVEL: "Travelling from SKHT to BNGLR" 
+    TRAVELLING: "SKHT to BNGLR" 
   tasks: 
    - name: check variables
     #  vars: 
     #   PERSON: "Prema from BNGLR"             #task
-    #   TRAVEL: "Travelling from BNGLR to SKHT" 
+    #   TRAVELLING: "BNGLR to SKHT" 
      ansible.builtin.debug:
-      msg: "Hello {{PERSON}}, Good {{TRAVEL}}"
+      msg: "Hello {{PERSON}}, Good {{TRAVELLING}}"
 
 
 
