@@ -1,6 +1,6 @@
 - name: install and run nginx
   hosts: 172.31.88.54
-  become: yes # it will be get root access
+  become: yes # it will be get root access ##for creation it will use
   tasks: 
     - name: install nginx package
       ansible.builtin.package:
