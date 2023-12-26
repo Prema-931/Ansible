@@ -1,0 +1,21 @@
+- name: variables from PLACE level
+  hosts: localhost
+  vars_files:
+  - variables.yaml
+  vars_prompt:
+  - name: PERSON
+    prompt: please enter your name
+    private: false # user can see what they are entering
+  - name: PLACE
+    prompt: please enter your place
+    private: false # user can see what they are entering
+  vars:
+    PERSON: "Prema from SKHT"
+    TRAVEL: "Travelling from SKHT" 
+  tasks: 
+   - name: check variables
+     vars: 
+      PERSON: "Prema from BNGLR"
+      TRAVEL: "Travelling from BNGLR" 
+     ansible.builtin.debug:
+      msg: "Hello {{PERSON}}, Good {{TRAVEL}}"
