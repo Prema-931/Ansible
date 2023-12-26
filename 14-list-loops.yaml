@@ -10,3 +10,4 @@
     - git
     - mysql
     - postfix
+    - nginx
