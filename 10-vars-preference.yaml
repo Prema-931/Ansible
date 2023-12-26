@@ -19,3 +19,10 @@
       TRAVEL: "Travelling from BNGLR to SKHT" 
      ansible.builtin.debug:
       msg: "Hello {{PERSON}}, Good {{TRAVEL}}"
+
+
+
+   #1.CMD
+   #2.place
+   #3.file
+   #4.prompt   
